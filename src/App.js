@@ -42,8 +42,6 @@ const App = () => {
           </Grid.Column>
           <Grid.Column width={10} className="animated slideInUp">
             <Summary summary={ summary } />
-            <Divider section />
-            <Articles articles={ articles } />
           </Grid.Column>
         </Grid>
       </Container>
