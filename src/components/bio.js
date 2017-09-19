@@ -7,7 +7,6 @@ const Bio = ({ info }) => {
     <div>
       <Image src='/assets/rikmms_photo.jpg' size='small' verticalAlign='middle' shape='circular'/>
       <Header as='h1'>{ info.name }</Header>
-      <Header sub>{ info.description }</Header>
       <div>
         {info.social.map(s =>
           <a key={ s.link } href={ s.link } target={ s.target } rel={ s.rel }>
