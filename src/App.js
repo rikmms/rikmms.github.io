@@ -11,14 +11,13 @@ const userInfo = {
   name: 'Ricardo Sousa',
   description: 'Software Engineer and Full Stack Developer',
   social: [
-    { name: 'mail', link: 'mailto:sousa.ricardo10@gmail.com' },
+    { name: 'twitter', link: 'https://twitter.com/rikmms', target: '_blank', rel: 'noopener noreferrer' },
+    { name: 'linkedin', link: 'https://www.linkedin.com/in/rikmms/', target: '_blank', rel: 'noopener noreferrer' },
+    { name: 'github', link: 'https://github.com/rikmms', target: '_blank', rel: 'noopener noreferrer' },
     { name: 'medium', link: 'https://medium.com/@rikmms', target: '_blank', rel: 'noopener noreferrer' },
     { name: 'quora', link: 'https://www.quora.com/profile/Ricardo-Sousa-49', target: '_blank', rel: 'noopener noreferrer' },
     { name: 'meetup', link: 'https://www.meetup.com/members/161048452/', target: '_blank', rel: 'noopener noreferrer' },
-    { name: 'linkedin', link: 'https://www.linkedin.com/in/rikmms/', target: '_blank', rel: 'noopener noreferrer' },
-    { name: 'twitter', link: 'https://twitter.com/rikmms', target: '_blank', rel: 'noopener noreferrer' },
-    { name: 'github', link: 'https://github.com/rikmms', target: '_blank', rel: 'noopener noreferrer' },
-    { name: 'github square', link: 'https://github.com/rikmms-challenge', target: '_blank', rel: 'noopener noreferrer' }
+    { name: 'mail', link: 'mailto:sousa.ricardo10@gmail.com' }
   ]
 }
 
