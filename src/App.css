@@ -1,0 +1,11 @@
+.app {
+  margin-top: 100px;
+}
+
+a {
+  color:grey;
+}
+
+a:hover {
+  color: black;
+}
