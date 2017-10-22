@@ -5,8 +5,8 @@ const Bio = ({ info }) => {
   
   return (
     <div>
-      <Image src='/assets/rikmms_photo.png' size='small' verticalAlign='middle' shape='circular'/>
-      <Header as='h1'>{ info.name }</Header>
+      <Image src='/assets/rikmms_photo.png' size='small' verticalAlign='middle' shape='rounded'/>
+      <Header as='h2'>{ info.name }</Header>
       <div>
         {info.social.map(s =>
           <a key={ s.link } href={ s.link } target={ s.target } rel={ s.rel }>
