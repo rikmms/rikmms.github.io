@@ -30,7 +30,7 @@ const summary = <div>
 </div>
 
 const articles = [
-  { date: '19/09/17', title: 'JavaScript’s default parameters and Dependency Injection', link: 'https://medium.com/@rikmms/javascripts-default-parameters-and-dependency-injection-f1fc5323473' }
+  { date: '17/10/22', title: 'How to take advantage of JavaScript’s default parameters for Dependency Injection', link: 'https://medium.freecodecamp.org/how-to-take-advantage-of-javascripts-default-parameters-for-dependency-injection-98fc423328e1' }
 ]
 
 const App = () => {
@@ -43,6 +43,8 @@ const App = () => {
           </Grid.Column>
           <Grid.Column width={10} className="animated slideInUp">
             <Summary summary={ summary } />
+            <Divider />
+            <Articles articles={ articles } />
           </Grid.Column>
         </Grid>
       </Container>

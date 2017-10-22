@@ -5,7 +5,7 @@ const Articles = ({ articles }) => {
   return (
     <div>
       <Header as='h3'>Public articles</Header>
-      <List bulleted>
+      <List>
         { articles.map(article => 
           <List.Item key={ article.title }>
             { article.date } - <a href={ article.link } target='_blank' rel='noopener noreferrer'>{ article.title }</a>
