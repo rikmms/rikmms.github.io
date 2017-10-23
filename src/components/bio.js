@@ -5,7 +5,7 @@ const Bio = ({ info }) => {
   
   return (
     <div>
-      <Image src='/assets/rikmms_photo.png' size='small' verticalAlign='middle' shape='rounded'/>
+      <Image src='/assets/rikmms_photo.jpg' size='small' verticalAlign='middle' shape='circular'/>
       <Header as='h2'>{ info.name }</Header>
       <div>
         {info.social.map(s =>
