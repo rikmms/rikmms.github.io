@@ -17,14 +17,13 @@ const userInfo = {
     { name: 'github', link: 'https://github.com/rikmms-challenge', target: '_blank', rel: 'noopener noreferrer' },
     { name: 'free code camp', link: 'https://forum.freecodecamp.org/u/rikmms', target: '_blank', rel: 'noopener noreferrer' },
     { name: 'medium', link: 'https://medium.com/@rikmms', target: '_blank', rel: 'noopener noreferrer' },
-    // { name: 'quora', link: 'https://www.quora.com/profile/Ricardo-Sousa-49', target: '_blank', rel: 'noopener noreferrer' },
     { name: 'meetup', link: 'https://www.meetup.com/members/161048452/', target: '_blank', rel: 'noopener noreferrer' },
     { name: 'mail', link: 'mailto:sousa.ricardo10@gmail.com' }
   ]
 }
 
 const summary = <div>
-  <p>Software Engineer and Full Stack Developer. A programmer who's always looking for new challenges and opportunities to evolve, with interests in large-scale distributed systems, architectural patterns, and web/mobile development.</p>
+  <p>Software Engineer/Architect and Full Stack Developer. A programmer who's always looking for new challenges and opportunities to evolve, with interests in large-scale distributed systems, architectural patterns, and web/mobile development.</p>
   <p>Currently working as a Software Architect at <a href='http://www.challenge.pt/' target='_blank' rel='noopener noreferrer'>Challenge.IT</a> in Lisbon (PT) since 2013, where the principal activity is to design and implement tailor-made Software projects.</p>
   <p>Also, a Trainer of Software development.</p>
 </div>
