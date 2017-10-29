@@ -8,7 +8,10 @@ const Articles = ({ articles }) => {
       <List>
         { articles.map(article => 
           <List.Item key={ article.title }>
-            { article.date } - <a href={ article.link } target='_blank' rel='noopener noreferrer'>{ article.title }</a>
+            <List.Icon name='calendar' />
+            <List.Content>
+              { article.date } - <a href={ article.link } target='_blank' rel='noopener noreferrer'>{ article.title }</a>
+            </List.Content>
           </List.Item>
         )}
       </List>
