@@ -1,5 +1,5 @@
 .app {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 body {
@@ -12,4 +12,15 @@ a {
 
 a:hover {
   color: black;
+}
+
+.bottom-bar {
+  position: relative;
+}
+
+.bottom-bar p {
+  position: fixed; 
+  bottom: 0; 
+  width:100%; 
+  text-align: center;
 }

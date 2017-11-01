@@ -1,15 +1,15 @@
 import React from 'react'
 import { Image, Header, Icon } from 'semantic-ui-react'
 
-const Bio = ({ info }) => {
+const Bio = ({ photoSrc, info }) => {
   
   return (
     <div>
-      <Image src='/assets/rikmms_photo.jpg' size='small' verticalAlign='middle' shape='circular'/>
+      <Image src={ photoSrc } size='small' verticalAlign='middle' shape='circular'/>
       <Header as='h2'>{ info.name }</Header>
       <div>
         {info.social.map(s =>
-          <a key={ s.link } href={ s.link } target={ s.target } rel={ s.rel }>
+          <a key={ s.link } href={ s.link } target='_blank' rel='noopener noreferrer'>
             <Icon name={ s.name } size='large'/>
           </a>
         )}
