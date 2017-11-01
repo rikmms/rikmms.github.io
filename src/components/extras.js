@@ -3,7 +3,7 @@ import { Header, List } from 'semantic-ui-react'
 
 const Extras = ({ extras }) => (
   <div>
-    <Header as='h3'>Extras</Header>
+    <Header as='h3'>Others</Header>
     <List>
     { extras.map(extra => 
       <List.Item key={ extra.id }>

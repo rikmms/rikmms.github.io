@@ -4,7 +4,7 @@ import { Header, List } from 'semantic-ui-react'
 const Articles = ({ articles }) => {
   return (
     <div>
-      <Header as='h3'>Public articles</Header>
+      <Header as='h3'>Published articles</Header>
       <List>
         { articles.map(article => 
           <List.Item key={ article.title }>

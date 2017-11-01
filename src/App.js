@@ -33,7 +33,8 @@ const articles = [
 ]
 
 const extras = [
-  { id: 1, content: <div>Bookshelf, primarily of technical books, at the <a href='https://www.goodreads.com/review/list/23928978-ricardo-sousa?shelf=' target='_blank' rel='noopener noreferrer'>Goodreads</a></div>, icon: 'book' }
+  { id: 1, content: <div>Bookshelf, primarily of technical books, at the <a href='https://www.goodreads.com/review/list/23928978-ricardo-sousa?shelf=' target='_blank' rel='noopener noreferrer'>Goodreads</a></div>, icon: 'book' },
+  { id: 2, content: <div>Bachelor's final project <a href='https://drive.google.com/file/d/0BzxkMjk9Y1V8QWxEV3B0ZTY3SDA/view?usp=sharing' target='_blank' rel='noopener noreferrer'>report</a> (written in pt-PT)</div>, icon: 'university' }
 ]
 
 const App = () => {
