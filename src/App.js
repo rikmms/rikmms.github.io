@@ -22,7 +22,7 @@ const userInfo = {
 }
 
 const summary = <div>
-  <p>Software Engineer and Full Stack Developer. A programmer who's always looking for new challenges and opportunities to evolve, with interests in large-scale distributed systems, architectural patterns, and web/mobile development.</p>
+  <p>Software Engineer and Full Stack Developer. A programmer who's always looking for new challenges and opportunities to evolve, with interests in large-scale distributed systems, architectural patterns and web/mobile development.</p>
   <p>Currently working as a Software Architect at <a href='http://www.challenge.pt/' target='_blank' rel='noopener noreferrer'>Challenge.IT</a> in Lisbon (PT) since 2013, where the principal activity is to design and implement tailor-made Software projects.</p>
   <p>Also, a Trainer of Software development.</p>
   <p></p>
@@ -55,7 +55,7 @@ const App = () => {
         </Grid>
       </Container>
       <div className='bottom-bar'>
-          <p><b>rikmms</b> last update - <em>31/10/17</em></p>
+          <p><b>rikmms</b> last update - <em>02/11/17</em></p>
       </div>
     </div>
   )
