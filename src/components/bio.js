@@ -1,11 +1,11 @@
 import React from 'react'
 import { Image, Header, Icon } from 'semantic-ui-react'
 
-const Bio = ({ photoSrc, info }) => {
+const Bio = ({ info }) => {
   
   return (
     <div>
-      <Image src={ photoSrc } size='small' verticalAlign='middle' shape='circular'/>
+      <Image src={ info.photoSrc } size='small' verticalAlign='middle' shape='circular'/>
       <Header as='h2'>{ info.name }</Header>
       <div>
         {info.social.map(s =>

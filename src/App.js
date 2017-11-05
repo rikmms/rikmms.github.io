@@ -9,6 +9,7 @@ import Articles from './components/articles'
 import Extras from './components/extras'
 
 const userInfo = {
+  photoSrc: '/assets/rikmms_photo.png', 
   name: 'Ricardo Sousa',
   description: 'Software Engineer and Full Stack Developer',
   social: [
@@ -43,7 +44,7 @@ const App = () => {
       <Container>
         <Grid columns={2} divided>
           <Grid.Column width={6} textAlign='center' className="animated slideInLeft">
-            <Bio photoSrc={ '/assets/rikmms_photo.png' } info={ userInfo } />
+            <Bio info={ userInfo } />
           </Grid.Column>
           <Grid.Column width={10} className="animated slideInUp">
             <Summary summary={ summary } />
