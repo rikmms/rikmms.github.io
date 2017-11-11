@@ -16,9 +16,9 @@ const userInfo = {
     { name: 'mail', link: 'mailto:sousa.ricardo10@gmail.com' },
     { name: 'linkedin', link: 'https://www.linkedin.com/in/rikmms/' },
     { name: 'twitter', link: 'https://twitter.com/rikmms' },
-    { name: 'github alternate', link: 'https://github.com/rikmms' },
-    { name: 'github', link: 'https://github.com/rikmms-challenge' },
-    { name: 'medium', link: 'https://medium.com/@rikmms' }
+    { name: 'medium', link: 'https://medium.com/@rikmms' },
+    { name: 'github', link: 'https://github.com/rikmms' },
+    { name: 'github alternate', link: 'https://github.com/rikmms-challenge' }
   ]
 }
 
@@ -34,8 +34,8 @@ const articles = [
 ]
 
 const extras = [
-  { id: 1, content: <div>Bookshelf, primarily of technical books, at the <a href='https://www.goodreads.com/review/list/23928978-ricardo-sousa?shelf=' target='_blank' rel='noopener noreferrer'>Goodreads</a></div>, icon: 'book' },
-  { id: 2, content: <div>Bachelor's final project <a href='https://drive.google.com/file/d/0BzxkMjk9Y1V8QWxEV3B0ZTY3SDA/view?usp=sharing' target='_blank' rel='noopener noreferrer'>report</a> (written in pt-PT)</div>, icon: 'university' }
+  { id: 1, content: <div>Bachelor's final project <a href='https://drive.google.com/file/d/0BzxkMjk9Y1V8QWxEV3B0ZTY3SDA/view?usp=sharing' target='_blank' rel='noopener noreferrer'>Report</a> (written in pt-PT)</div>, icon: 'university' },
+  { id: 2, content: <div>Bookshelf at the <a href='https://www.goodreads.com/review/list/23928978-ricardo-sousa?shelf=' target='_blank' rel='noopener noreferrer'>Goodreads</a></div>, icon: 'book' }
 ]
 
 const App = () => {
@@ -56,7 +56,7 @@ const App = () => {
         </Grid>
       </Container>
       <div className='bottom-bar'>
-          <p><b>rikmms</b> last update - <em>02/11/17</em></p>
+          <p><b>rikmms</b> last update - <em>11/11/17</em></p>
       </div>
     </div>
   )
