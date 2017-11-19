@@ -10,7 +10,7 @@ const Bio = ({ info }) => {
       <div>
         {info.social.map(s =>
           <a key={ s.link } href={ s.link } target='_blank' rel='noopener noreferrer'>
-            <Icon name={ s.name } size='large'/>
+            <Icon name={ s.name } size='big'/>
           </a>
         )}
       </div>
