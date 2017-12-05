@@ -29,7 +29,7 @@ const summary = <div>
 </div>
 
 const articles = [
-  { date: '13/09/01', title: 'Bachelor\'s final project report (written in pt-PT)', link: 'https://drive.google.com/file/d/0BzxkMjk9Y1V8QWxEV3B0ZTY3SDA/view?usp=sharing' },
+  { date: '13/09/11', title: 'Bachelor\'s final project report (written in pt-PT)', link: 'https://drive.google.com/file/d/0BzxkMjk9Y1V8QWxEV3B0ZTY3SDA/view?usp=sharing' },
   { date: '17/10/22', title: 'How to take advantage of JavaScript’s default parameters for Dependency Injection', link: 'https://medium.freecodecamp.org/how-to-take-advantage-of-javascripts-default-parameters-for-dependency-injection-98fc423328e1' }
 ]
 
